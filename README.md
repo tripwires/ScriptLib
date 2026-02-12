@@ -11,9 +11,19 @@ This repository contains experimental scripts for various purposes, from gaming 
 ### iRacing Scripts
 **Location:** [IRacingScripts/](IRacingScripts/)  
 **Description:** Automation scripts for iRacing sim racing setup  
-**Documentation:** [IRacingScripts/README.md](IRacingScripts/README.md)
+**Documentation:** [IRacingStart.md](IRacingScripts/IRacingStart.md)
 
 A PowerShell script that automatically launches all essential iRacing applications (MOZA Pit House, CrewChief V4, Trading Paints, irDashies, and iRacing UI) in one go, saving time and ensuring you don't forget any critical tools before racing sessions.
+
+### Utilities
+**Location:** [Utilities/](Utilities/)  
+**Description:** General-purpose utility scripts for system administration and automation  
+
+#### SetVolumeMicTo100
+**Documentation:** [SetVolumeMicTo100.md](Utilities/SetVolumeMicTo100.md)  
+**Script:** [SetVolumeMicTo100.ps1](Utilities/SetVolumeMicTo100.ps1)
+
+A PowerShell script that sets the default microphone volume to 100% using a two-step process (99% → 100%) to ensure proper audio driver initialization. Features direct Windows Audio API integration, volume verification, comprehensive error handling, and visual feedback.
 
 ## 🧪 Experimental Nature
 
