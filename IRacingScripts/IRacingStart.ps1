@@ -49,7 +49,7 @@ if ($startTradingPaints) {
 }
 
 
-# 3. irDashies (Usually in AppData for Electron apps)
+# 4. irDashies (Usually in AppData for Electron apps)
 if ($startIrDashies) {
     Write-Host "Launching irDashies..." -ForegroundColor Magenta
     if (Test-Path $irDashiesPath) {
@@ -60,7 +60,7 @@ if ($startIrDashies) {
     }
 }
 
-# 4. iRacing UI
+# 5. iRacing UI
 if ($startIracingUI) {
     if (Test-Path $iRacingUIPath) {
         Write-Host "Launching iRacing..." -ForegroundColor Red
