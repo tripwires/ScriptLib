@@ -11,7 +11,8 @@ This repository contains experimental scripts for various purposes, from gaming 
 ### iRacing Scripts
 **Location:** [IRacingScripts/](IRacingScripts/)  
 **Description:** Automation scripts for iRacing sim racing setup  
-**Documentation:** [IRacingStart.md](IRacingScripts/IRacingStart.md)
+**Documentation:** [IRacingStart.md](IRacingScripts/IRacingStart.md)  
+**Script:** [IRacingStart.ps1](IRacingScripts/IRacingStart.ps1)
 
 A PowerShell script that automatically launches all essential iRacing applications (MOZA Pit House, CrewChief V4, Trading Paints, irDashies, and iRacing UI) in one go, saving time and ensuring you don't forget any critical tools before racing sessions.
 
