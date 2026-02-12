@@ -109,7 +109,7 @@ The script uses these default installation paths:
 ### Create a Desktop Shortcut
 
 1. Right-click on desktop → New → Shortcut
-2. Location: `powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -File "C:\Users\miche\repos\scripts\IRacingScripts\IRacingStart.ps1"`
+2. Location: `powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -File "C:\Users\YourName\repos\scripts\IRacingScripts\IRacingStart.ps1"`
 3. Name: "Start iRacing Setup"
 
 ### Run at System Startup
