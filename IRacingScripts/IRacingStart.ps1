@@ -3,11 +3,11 @@
 
 # Application configuration - easy to modify paths and settings
 $applications = @(
-    @{ Name = "MOZA Pit House"; Path = "C:\Program Files (x86)\MOZA Pit House\MOZA Pit House.exe"; Enabled = $true; Args = @(); Color = "Cyan" }
-    @{ Name = "CrewChief V4"; Path = "C:\Program Files (x86)\Britton IT Ltd\CrewChiefV4\CrewChiefV4.exe"; Enabled = $true; Args = @("-run_immediately"); Color = "Green" }
-    @{ Name = "Trading Paints"; Path = "C:\Program Files (x86)\Rhinode LLC\Trading Paints\Trading Paints.exe"; Enabled = $true; Args = @(); Color = "Blue" }
+    @{ Name = "MOZA Pit House"; Path = "${env:ProgramFiles(x86)}\MOZA Pit House\MOZA Pit House.exe"; Enabled = $true; Args = @(); Color = "Cyan" }
+    @{ Name = "CrewChief V4"; Path = "${env:ProgramFiles(x86)}\Britton IT Ltd\CrewChiefV4\CrewChiefV4.exe"; Enabled = $true; Args = @("-run_immediately"); Color = "Green" }
+    @{ Name = "Trading Paints"; Path = "${env:ProgramFiles(x86)}\Rhinode LLC\Trading Paints\Trading Paints.exe"; Enabled = $true; Args = @(); Color = "Blue" }
     @{ Name = "irDashies"; Path = "$env:LOCALAPPDATA\irdashies\irDashies.exe"; Enabled = $true; Args = @(); Color = "Magenta" }
-    @{ Name = "iRacing UI"; Path = "C:\Program Files (x86)\iRacing\ui\iRacingUI.exe"; Enabled = $true; Args = @(); Color = "Red" }
+    @{ Name = "iRacing UI"; Path = "${env:ProgramFiles(x86)}\iRacing\ui\iRacingUI.exe"; Enabled = $true; Args = @(); Color = "Magenta" }
 )
 
 # Launch function - handles all the repetitive logic
