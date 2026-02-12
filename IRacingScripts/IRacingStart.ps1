@@ -1,9 +1,14 @@
+# iRacing Start Script
+# This script is designed to launch all the essential applications for an iRacing session in one
+# go. It includes MOZA Pit House, CrewChief V4, Trading Paints, irDashies, and the iRacing UI.
+# Note: Update the paths to the executables if they are installed in different locations on your system.
 $mozaPath = "C:\Program Files (x86)\MOZA Pit House\MOZA Pit House.exe"
 $crewChiefPath = "C:\Program Files (x86)\Britton IT Ltd\CrewChiefV4\CrewChiefV4.exe"
 $tradingPaintsPath = "C:\Program Files (x86)\Rhinode LLC\Trading Paints\Trading Paints.exe"
 $irDashiesPath = "$env:LOCALAPPDATA\irdashies\irDashies.exe"
 $iRacingUIPath = "C:\Program Files (x86)\iRacing\ui\iRacingUI.exe"
 
+# Flags to control which applications to start (set to $false to skip launching)
 $startMoza = $true;
 $startCrewChief = $true;
 $startTradingPaints = $true;
