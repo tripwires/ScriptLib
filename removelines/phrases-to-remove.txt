@@ -1,2 +1,0 @@
-example phrase one
-example phrase two
